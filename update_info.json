@@ -1,15 +1,20 @@
 {
   "addon": {
     "version": "1.5.3",
-    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.3/GPSketch-1.5.3.zip",
+    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.2/GPSketch-1.5.2.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Added auto-updater\n- Bug fixes"
+    "changelog": "- Added auto-updater\n- Added strokes cleaner\n- Bug fixes"
   },
   "asset_library": {
     "4.3": {
-      "version": "1.5.0",
-      "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.3/GPSketch_Library_4.3-1.5.0.zip",
-      "changelog": "GPSketch asset library v1.5.0"
+      "version": "1.5.2",
+      "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.2/GPSketch_Library_4.3-1.5.2.zip",
+      "changelog": "GPSketch asset library v1.5.2"
+    },
+    "4.5": {
+      "version": "1.5.2",
+      "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.2/GPSketch_Library_4.5-1.5.2.zip",
+      "changelog": "GPSketch asset library v1.5.2 (Blender 4.5+)"
     }
   },
   "manifest_version": 1

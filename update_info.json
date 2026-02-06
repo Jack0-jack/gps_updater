@@ -1,14 +1,14 @@
 {
   "addon": {
-    "version": "1.5.1",
-    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.1/GPSketch-1.5.1.zip",
+    "version": "1.5.3",
+    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.3/GPSketch-1.5.3.zip",
     "min_blender": "4.3.0",
     "changelog": "- Added auto-updater\n- Bug fixes"
   },
   "asset_library": {
     "4.3": {
       "version": "1.5.0",
-      "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.1/GPSketch_Library_4.3-1.5.0.zip",
+      "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.3/GPSketch_Library_4.3-1.5.0.zip",
       "changelog": "GPSketch asset library v1.5.0"
     }
   },

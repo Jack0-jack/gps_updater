@@ -1,9 +1,9 @@
 {
   "addon": {
     "version": "1.5.3",
-    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.2/GPSketch-1.5.2.zip",
+    "download_url": "https://github.com/Orbi51/gps_updater/releases/download/v1.5.3/GPSketch-1.5.3.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Added auto-updater\n- Added strokes cleaner\n- Bug fixes"
+    "changelog": "- Added auto-updater with background check, download & install\n- Added strokes cleaner\n- Library version tracking via version.json\n- Dismiss behavior: preferences vs sidebar distinction\n- Bug fixes"
   },
   "asset_library": {
     "4.3": {

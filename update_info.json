@@ -3,7 +3,7 @@
     "version": "1.5.4",
     "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.4/GPSketch-1.5.4.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Asset files now loaded from GPSketch asset library instead of addon folder\n- Addon package is smaller — .blend assets ship separately via the library\n- Clear error messages guide users to install the library if missing"
+    "changelog": "- Asset files now loaded from GPSketch asset library instead of addon folder\n- Addon package is smaller — .blend assets ship separately via the library\n- Clear error messages guide users to install the library if missing\n- Fix updater manifest URL causing check failures\n- Updater status now visible above all preference tabs\n- Strokes Cleaner enabled by default with tuned settings"
   },
   "asset_library": {
     "4.3": {

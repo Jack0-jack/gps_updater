@@ -1,20 +1,20 @@
 {
   "addon": {
-    "version": "1.5.5",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.5/GPSketch-1.5.5.zip",
+    "version": "1.5.6",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch-1.5.6.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Fix stale bytecode cache causing install failure on addon upgrade\n- Addon now clears __pycache__ automatically when the version changes"
+    "changelog": "- Use Taubin smoothing to prevent curve shrinkage on long strokes\n- Skip hook removal on Blender 5.0.0 to prevent crash (bug #149905)\n- Add proportional safeguards to hook remover to prevent whole-stroke deletion"
   },
   "asset_library": {
     "4.3": {
-      "version": "1.5.2",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.2/GPSketch_Library_4.3-1.5.2.zip",
-      "changelog": "GPSketch asset library v1.5.2"
+      "version": "1.5.6",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch_Library_4.3-1.5.6.zip",
+      "changelog": "- Onion Skin visualization with Show Strokes Curves\n- Curves and points visible in edit mode with Show Strokes Curves\n- Large performance improvement through attributes simplifications\n- Bug fixes"
     },
     "4.5": {
-      "version": "1.5.2",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.2/GPSketch_Library_4.5-1.5.2.zip",
-      "changelog": "GPSketch asset library v1.5.2 (Blender 4.5+)"
+      "version": "1.5.6",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch_Library_4.5-1.5.6.zip",
+      "changelog": "- Onion Skin visualization with Show Strokes Curves\n- Curves and points visible in edit mode with Show Strokes Curves\n- Large performance improvement through attributes simplifications\n- Bug fixes"
     }
   },
   "manifest_version": 1

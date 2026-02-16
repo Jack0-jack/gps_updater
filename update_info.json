@@ -1,20 +1,20 @@
 {
   "addon": {
-    "version": "1.5.6",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch-1.5.6.zip",
+    "version": "1.5.7",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch-1.5.7.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Use Taubin smoothing to prevent curve shrinkage on long strokes\n- Skip hook removal on Blender 5.0.0 to prevent crash (bug #149905)\n- Add proportional safeguards to hook remover to prevent whole-stroke deletion"
+    "changelog": "- Replace hook deletion with point collapse to fix cross-build compatibility\n- Delete __pycache__ during addon update to prevent stale bytecode\n- Fix for Billboard Mapping scaling when object was not at scale 1"
   },
   "asset_library": {
     "4.3": {
-      "version": "1.5.6",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch_Library_4.3-1.5.6.zip",
-      "changelog": "- Onion Skin visualization with Show Strokes Curves\n- Curves and points visible in edit mode with Show Strokes Curves\n- Large performance improvement through attributes simplifications\n- Bug fixes"
+      "version": "1.5.7",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch_Library_4.3-1.5.7.zip",
+      "changelog": "- Fix for Billboard Mapping scaling when object was not at scale 1"
     },
     "4.5": {
-      "version": "1.5.6",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.6/GPSketch_Library_4.5-1.5.6.zip",
-      "changelog": "- Onion Skin visualization with Show Strokes Curves\n- Curves and points visible in edit mode with Show Strokes Curves\n- Large performance improvement through attributes simplifications\n- Bug fixes"
+      "version": "1.5.7",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch_Library_4.5-1.5.7.zip",
+      "changelog": "- Fix for Billboard Mapping scaling when object was not at scale 1"
     }
   },
   "manifest_version": 1

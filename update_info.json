@@ -1,9 +1,9 @@
 {
   "addon": {
-    "version": "1.5.7",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch-1.5.7.zip",
+    "version": "1.5.8",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.8/GPSketch-1.5.8.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Replace hook deletion with point collapse to fix cross-build compatibility\n- Delete __pycache__ during addon update to prevent stale bytecode\n- Fix for Billboard Mapping scaling when object was not at scale 1"
+    "changelog": "- Fix cursor tool getting stuck in rotate-only mode after Shift+Alt+Right Click\n- Ghost keymap items from old reset bug are now cleaned up automatically"
   },
   "asset_library": {
     "4.3": {

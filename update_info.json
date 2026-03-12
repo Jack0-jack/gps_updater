@@ -1,20 +1,20 @@
 {
   "addon": {
-    "version": "1.5.8",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.8/GPSketch-1.5.8.zip",
+    "version": "1.5.9",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.9/GPSketch-1.5.9.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Fix cursor tool getting stuck in rotate-only mode after Shift+Alt+Right Click\n- Ghost keymap items from old reset bug are now cleaned up automatically"
+    "changelog": "- Fix Add Menu asset import always selecting existing object instead of importing new one\n- Deduplicate materials and node groups on asset import to keep the file clean"
   },
   "asset_library": {
     "4.3": {
-      "version": "1.5.7",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch_Library_4.3-1.5.7.zip",
-      "changelog": "- Fix for Billboard Mapping scaling when object was not at scale 1"
+      "version": "1.5.9",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.9/GPSketch_Library_4.3-1.5.9.zip",
+      "changelog": "- Fix Hullsketch being slightly transparent\n- Fix for a bug where the alpha of GPSketch brushes would appear wrong due to a bug in Blender"
     },
     "4.5": {
-      "version": "1.5.7",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.7/GPSketch_Library_4.5-1.5.7.zip",
-      "changelog": "- Fix for Billboard Mapping scaling when object was not at scale 1"
+      "version": "1.5.9",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.9/GPSketch_Library_4.5-1.5.9.zip",
+      "changelog": "- Fix Hullsketch being slightly transparent\n- Fix for a bug where the alpha of GPSketch brushes would appear wrong due to a bug in Blender"
     }
   },
   "manifest_version": 1

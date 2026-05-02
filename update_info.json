@@ -1,20 +1,25 @@
 {
   "addon": {
-    "version": "1.5.10",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.10/GPSketch-1.5.10.zip",
+    "version": "1.6.0",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.6.0/GPSketch-1.6.0.zip",
     "min_blender": "4.3.0",
-    "changelog": "- Fix SSL certificate verification error on Windows — the updater could fail with CERTIFICATE_VERIFY_FAILED on some systems where Blender's bundled Python cannot access the Windows certificate store"
+    "changelog": "- Material sync rework: fixed stale modifier after undo/redo, fixed linked source materials being skipped (broke sync on Blender 4.4+ for brushes from the asset library), all slot changes now sync immediately in any mode\n- Fix Rescan Library deleting scene objects whose name matched a library asset\n- New Blender 5.1+ asset library"
   },
   "asset_library": {
     "4.3": {
       "version": "1.5.9",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.10/GPSketch_Library_4.3-1.5.9.zip",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.6.0/GPSketch_Library_4.3-1.5.9.zip",
       "changelog": "- Fix Hullsketch being slightly transparent\n- Fix for a bug where the alpha of GPSketch brushes would appear wrong due to a bug in Blender"
     },
     "4.5": {
       "version": "1.5.9",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.5.10/GPSketch_Library_4.5-1.5.9.zip",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.6.0/GPSketch_Library_4.5-1.5.9.zip",
       "changelog": "- Fix Hullsketch being slightly transparent\n- Fix for a bug where the alpha of GPSketch brushes would appear wrong due to a bug in Blender"
+    },
+    "5.1": {
+      "version": "1.6.0",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.6.0/GPSketch_Library_5.1-1.6.0.zip",
+      "changelog": "- New asset library for Blender 5.1+"
     }
   },
   "manifest_version": 1

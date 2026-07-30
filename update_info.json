@@ -1,9 +1,9 @@
 {
   "addon": {
-    "version": "2.0.0",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.0.0/GPSketch-2.0.0.zip",
+    "version": "2.0.1",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.0.1/GPSketch-2.0.1.zip",
     "min_blender": "4.3.0",
-    "changelog": "NEW\n- Boolean strokes: Difference, Union, Intersection and Intersection Additive operations on your Fill shapes. Enable an operation to have it apply automatically, or trigger it manually with a shortcut\n- Stroke to Fill: automatically transforms your strokes into a Fill shape, and works well together with the boolean operations\n\nIMPROVEMENTS\n- Brush import rebuilt entirely: brushes come in much closer to how they look in the app you exported them from, and it's future-proofed for Blender's next brush engine features\n- Blender 5.1 and 5.2 support: bugfixes, compatibility improvements, and much deeper integration with Grease Pencil's new features - point placement Radius / Density, Texture Rotation, and no need to set Line and Fill layers as the stroke type now comes from the material and the drawing mode directly\n\nAnd many other improvements and fixes."
+    "changelog": "BOOLEAN WORKFLOW REWORK\n- New shortcuts, so they no longer collide with Blender's Select All: Ctrl+A cut, Shift+A union, Ctrl+Shift+A trim stroke, Ctrl+Alt+A intersect\n- In Draw mode the shortcut turns an automatic mode on, and every stroke you then draw is applied as that boolean. Press it again to turn it off\n- In Edit mode the shortcut applies the boolean right away: your selected strokes are the cutter, everything else in scope is the target. Select any number of strokes and they fuse into one cutting shape, so the order you selected them in does not matter\n- Both modes now have buttons in the sidebar as well as the shortcuts\n- Union keeps a stroke that overlaps nothing, since that just means you drew a new shape. The cutting modes still remove a stroke that misses\n- Removed the boolean Selected Only option: Edit mode defines its scope by the selection now, and in Draw mode it could silently stop strokes from being affected for no visible reason\n\nFIXES\n- The first stroke converted by Stroke to Fill in a drawing came out solid white instead of taking the material colour\n- A fill with a hole in it used as a cutter cut as though it were solid\n- Booleans no longer touch a selection on another layer when the layer scope is set to All Visible"
   },
   "asset_library": {
     "4.3": {

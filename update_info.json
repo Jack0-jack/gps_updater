@@ -17,9 +17,9 @@
       "changelog": "- Fix Hullsketch being slightly transparent\n- Fix for a bug where the alpha of GPSketch brushes would appear wrong due to a bug in Blender"
     },
     "5.1": {
-      "version": "1.6.0",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v1.6.0/GPSketch_Library_5.1-1.6.0.zip",
-      "changelog": "- New asset library for Blender 5.1+"
+      "version": "1.6.1",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.0.1/GPSketch_Library_5.1-1.6.1.zip",
+      "changelog": "- Fix HullSketch appearing empty because of a broken library link"
     },
     "5.2": {
       "version": "2.0.1",

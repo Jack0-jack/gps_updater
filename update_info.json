@@ -22,9 +22,9 @@
       "changelog": "- New asset library for Blender 5.1+"
     },
     "5.2": {
-      "version": "2.0.0",
-      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.0.0/GPSketch_Library_5.2-2.0.0.zip",
-      "changelog": "- New asset library for Blender 5.2+\n- Brushes updated to use the new features of Blender 5.2, resulting in more optimized brushes and a better look"
+      "version": "2.0.1",
+      "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.0.1/GPSketch_Library_5.2-2.0.1.zip",
+      "changelog": "- Fix HullSketch appearing empty because of a broken library link"
     }
   },
   "manifest_version": 1

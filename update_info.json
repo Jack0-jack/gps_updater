@@ -1,9 +1,9 @@
 {
   "addon": {
-    "version": "2.1.0",
-    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.1.0/GPSketch-2.1.0.zip",
+    "version": "2.1.1",
+    "download_url": "https://github.com/Jack0-jack/gps_updater/releases/download/v2.1.1/GPSketch-2.1.1.zip",
     "min_blender": "4.3.0",
-    "changelog": "NEW\n- Surface & Facing section in the sidebar: the Shrinkwrap and Face Object settings, without opening the modifier panel\n- The Color, Tint and Surface & Facing sections are also shown in Object mode\n\nFIXES\n- Moving any object could make the whole scene stutter when a GPSketch object used a Dots or Box material with a spacing like 30%. It was most visible with Remesh on\n- Booleans drawn with the Box, Circle, Line, Arc, Curve or Polyline tools fired before the tool had finished, which could destroy an earlier hole and leave a ragged sliver\n- Intersect no longer deletes fills the cutter doesn't touch\n- Boolean results along the edge of a hole no longer lose their thickness and opacity\n- Undoing after turning a boolean mode on could delete the previous stroke\n- A smoothed stroke took three Ctrl+Z presses to undo instead of one\n- Booleans no longer print debug output to the console"
+    "changelog": "FIXES\n- Downloading updates or the asset library could fail on some Windows computers with \"CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate\""
   },
   "asset_library": {
     "4.3": {
